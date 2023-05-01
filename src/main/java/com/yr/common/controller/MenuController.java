@@ -59,7 +59,7 @@ public class MenuController {
 
 
     /**
-     * 放回固定格式的字符串，生成菜单树形表
+     * 放回固定格式的字符串，生成菜单树
      * @return
      */
     @RequestMapping(value="/menuTable/list", method = RequestMethod.GET, produces="application/json;charset=UTF-8")
